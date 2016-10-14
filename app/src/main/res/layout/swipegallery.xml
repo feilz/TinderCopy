@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/profpic"
+        android:contentDescription="@string/profPict"
+        android:layout_centerHorizontal="true"/>'
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profname"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:layout_below="@id/profpic"
+        android:minWidth="5dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profage"
+        android:layout_below="@id/profpic"
+        android:layout_toEndOf="@id/profname"
+        android:layout_toRightOf="@id/profname"
+        android:textSize="52sp"
+        android:minWidth="5dp" />
+</RelativeLayout>

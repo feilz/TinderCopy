@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/back">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/friends"
+            android:layout_height="wrap_content"
+            android:id="@+id/friendsSM" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/anything"
+            android:layout_height="wrap_content"
+            android:id="@+id/anythingSM"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/winkSM"
+            android:layout_below="@id/friendsSM"
+            android:contentDescription="@string/wink"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loveSM"
+            android:contentDescription="@string/love"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/anythingSM"
+            android:layout_alignEnd="@+id/anythingSM"
+            android:layout_alignLeft="@+id/anythingSM"
+            android:layout_alignStart="@+id/anythingSM" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/profpic"
+        android:contentDescription="@string/profPict" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profname"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:minWidth="5dp"
+            android:gravity="left|start"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profage"
+            android:gravity="end|right"
+            android:textSize="52sp"
+            android:minWidth="5dp"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/deny"
+            android:paddingStart="60dp"
+            android:paddingLeft="60dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/no"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/yes"
+            android:id="@+id/yes"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:paddingRight="20dp"
+            android:paddingEnd="20dp"
+            android:layout_gravity="right" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/roope"
+            android:id="@+id/roope"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/slogan"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:paddingBottom="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/friends"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/anything"
+            android:layout_height="wrap_content"
+            android:id="@+id/anything"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wink"
+            android:layout_below="@id/friends"
+            android:contentDescription="@string/wink"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/love"
+            android:contentDescription="@string/love"
+            android:layout_toRightOf="@id/wink"
+            android:layout_toEndOf="@id/wink"
+            android:layout_below="@id/anything"/>
+    </RelativeLayout>
+    <ImageView
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cont"
+        android:contentDescription="@string/cont"/>
+</LinearLayout>

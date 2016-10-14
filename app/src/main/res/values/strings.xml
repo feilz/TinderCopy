@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TinderCopy</string>
+    <string name="company_name">TINDERCOPY</string>
+    <string name="cont">Continue</string>
+    <string name="friends">friends</string>
+    <string name="anything">anything</string>
+    <string name="wink">wink</string>
+    <string name="love">love</string>
+    <string name="profPict">facebookProfilePicture</string>
+    <string name="slogan">\'Choose one or more\'</string>
+    <string name="deny">deny</string>
+    <string name="yes">yes</string>
+    <string name="roope">Roope</string>
+    <string name="roopeika">23</string>
+</resources>
